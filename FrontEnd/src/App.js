@@ -37,7 +37,7 @@ function App() {
 
   const checkout = () => {
     setCart([]); // Reset keranjang
-    toast.success("Pesanan berhasil!"); // Menampilkan notifikasi sukses
+    toast.success("Pesanan berhasil dipesan!"); // Menampilkan notifikasi sukses
     setTimeout(() => {
       setOrder(null); // Hapus pesan setelah beberapa detik
     }, 3000);
